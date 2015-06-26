@@ -39,7 +39,7 @@ class ztpserver::source (
   $version = master,
   $repo    = 'https://github.com/arista-eosplus/ztpserver',
   $branch  = $version,
-  $force   = 'false',
+  $force   = false,
   $user    = 'ztpsadmin',
   $group   = 'ztpsadmin',
   $homedir = '',
