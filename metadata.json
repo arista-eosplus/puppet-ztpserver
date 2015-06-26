@@ -1,0 +1,41 @@
+{
+  "name": "aristanetworks-ztpserver",
+  "version": "0.1.0",
+  "author": "aristanetworks",
+  "summary": "Install Arista Networks' ZTP Server",
+  "license": "BSD-3-Clause",
+  "source": "https://github.com/jerearista/puppet-ztpserver/",
+  "project_page": "https://github.com/jerearista/puppet-ztpserver/",
+  "issues_url": "https://github.com/jerearista/puppet-ztpserver/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-vcsrepo",
+      "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-inifile",
+      "version_range": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "20"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "tags": ["network", "arista", "eos", "ztp", "ztpserver"]
+}
+
