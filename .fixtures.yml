@@ -3,5 +3,4 @@ fixtures:
     "vcsrepo": "https://github.com/puppetlabs/puppetlabs-vcsrepo.git"
     "stdlib": "https://github.com/puppetlabs/puppetlabs-stdlib"
   symlinks:
-    #"puppet": "#{source_dir}"
     ztpserver: "#{source_dir}"
