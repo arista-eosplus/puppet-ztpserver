@@ -36,14 +36,14 @@
 # Copyright 2015 Arista Networks, unless otherwise noted.
 #
 class ztpserver (
-  $version = master,
-  $source  = 'source',
-  $user    = 'ztpsadmin',
-  $homedir = '',
-  $shell   = '/bin/false',
-  $group   = 'ztpsadmin',
+  $version     = master,
+  $source      = 'source',
+  $user        = 'ztpsadmin',
+  $homedir     = '',
+  $shell       = '/bin/false',
+  $group       = 'ztpsadmin',
   $listen_intf = '',
-  $listen_ip = ''
+  $listen_ip   = ''
 ){
 
   $sources = ['pypi', 'source']
