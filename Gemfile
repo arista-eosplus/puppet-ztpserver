@@ -6,3 +6,9 @@ gem 'puppetlabs_spec_helper', '>= 0.8.2'
 gem 'puppet-lint', '>= 1.0.0'
 gem 'facter', '>= 1.7.0'
 gem 'metadata-json-lint'
+gem 'beaker'
+
+group :development, :test do
+  gem 'beaker-rspec', :require => false
+  gem 'pry', :require => false
+end

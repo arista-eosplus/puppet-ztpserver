@@ -1,3 +1,9 @@
+# dynamically populated by rake rspec
 spec/fixtures/manifests/*
 spec/fixtures/modules/*
+
+# module build output
 pkg
+
+# beaker/vagrant logs
+log
