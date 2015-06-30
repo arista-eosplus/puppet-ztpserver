@@ -4,9 +4,9 @@
   "author": "aristanetworks",
   "summary": "Install Arista Networks' ZTP Server",
   "license": "BSD-3-Clause",
-  "source": "https://github.com/jerearista/puppet-ztpserver/",
-  "project_page": "https://github.com/jerearista/puppet-ztpserver/",
-  "issues_url": "https://github.com/jerearista/puppet-ztpserver/issues",
+  "source": "https://github.com/arista-eosplus/puppet-ztpserver/",
+  "project_page": "https://github.com/arista-eosplus/puppet-ztpserver/",
+  "issues_url": "https://github.com/arista-eosplus/puppet-ztpserver/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
